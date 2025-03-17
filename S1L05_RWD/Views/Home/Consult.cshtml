@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "Consult";
+}
+
+<form>
+    <!-- Heading divs, the class in the div specifies how much of the grid should be used -->
+    <div class="mb-2">
+        <h3>Book a consultation with your lecturer.</h3>
+        <h4>Your details</h4>
+    </div>
+
+    <!-- Separate each row with a div of class row-->
+    <div class="row">
+        <div class="col-md-5">
+            <!-- First name input -->
+            <label for="firstName" class="form-label">First Name</label>
+            <input type="text" class="form-control" id="firstName" required/>
+        </div>
+
+        <div class="col-md-5">
+            <!-- Last name input -->
+            <label for="lastName" class="form-label">Last Name</label>
+            <input type="text" class="form-control" id="lastName" required/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-8">
+            <!-- Email input -->
+            <label for="Email" class="form-label">Email</label>
+            <input type="email" id="Email" class="form-control" required/>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-10">
+            <!-- Comment input -->
+            <label for="comment" class="form-label">Comments</label>
+            <textarea class="form-control" id="comment" rows="4"></textarea>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-9 p-3">
+            <button type="submit" class="btn btn-primary mb-3">Submit</button>
+        </div>
+    </div>
+</form>
+
+
+
+
+
+
+
+
